@@ -4,7 +4,7 @@ description: Create a suggestion request for a particular product
 ---
 
 - Request-Type: **POST**
-- Platform: **BOTH**
+- Platform: **WEB**
 - Endpoint: `/quotation/create`
 - Query-parameters: None
 - Auth-token required: *NO*

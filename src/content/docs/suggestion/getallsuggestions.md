@@ -4,7 +4,7 @@ description: Get all suggestions, that were made
 ---
 
 - Request-Type: **GET**
-- Platform: **BOTH**
+- Platform: **WEB**
 - Endpoint: `/suggestion/get`
 - Query-parameters: None
 - Auth-token required: *YES*

@@ -25,6 +25,14 @@ export default defineConfig({
           autogenerate: { directory: 'quotation' },
         },
         {
+          label: 'Category',
+          autogenerate: { directory: 'category' },
+        },
+        {
+          label: 'Product',
+          autogenerate: { directory: 'product' },
+        },
+        {
           label: 'Reference',
           autogenerate: { directory: 'reference' },
         },
