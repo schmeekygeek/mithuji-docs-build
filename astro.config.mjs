@@ -33,6 +33,10 @@ export default defineConfig({
           autogenerate: { directory: 'product' },
         },
         {
+          label: 'Seller',
+          autogenerate: { directory: 'seller' },
+        },
+        {
           label: 'Reference',
           autogenerate: { directory: 'reference' },
         },
