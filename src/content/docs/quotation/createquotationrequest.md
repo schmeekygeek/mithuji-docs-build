@@ -1,16 +1,20 @@
 ---
-title: Phone - Request verification
-description: Request otp for phone verification
+title: Request for quotation
+description: Create a request for quotation request
 ---
 
 - Request-Type: **POST**
 - Platform: **BOTH**
-- Endpoint: `/phone/request`
+- Endpoint: `/quotation/create`
 - Query-parameters: None
 - Auth-token required: *YES*
 
-No request body is required
-
-Verification is necessary if the phone number was changed in other endpoints, in which case, the status of the phone number verified will be set to `false`.
-An otp will be sent to the corresponding phone number.
-The client is expected to enter the otp that was requested, in the `/phone/verify` endpoint for successful verification of the phone number
+## Example request body
+```json
+{
+    "seller_id": "6540bf3eeba9cc2d924e6f08",
+    "product_id": "23423423",
+    "quantity": 4
+}
+```
+Requesting for quotation requires the above attributes - `seller_id` - the seller from which the quotation is being requested, the `product_id` and the `quantity`.

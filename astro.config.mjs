@@ -17,6 +17,14 @@ export default defineConfig({
           autogenerate: { directory: 'customer' },
         },
         {
+          label: 'Suggestion',
+          autogenerate: { directory: 'suggestion' },
+        },
+        {
+          label: 'Quotation',
+          autogenerate: { directory: 'quotation' },
+        },
+        {
           label: 'Reference',
           autogenerate: { directory: 'reference' },
         },
